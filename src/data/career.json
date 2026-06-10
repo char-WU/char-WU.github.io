@@ -1,0 +1,29 @@
+{
+  "career": [
+    {
+      "name": "New Zealand Chinese Students Association",
+      "title": "Full-stack Developer",
+      "location": "Auckland, NZ",
+      "start": "Mar 2024",
+      "end": "Nov 2025",
+      "description": [
+        "Revamped the official website framework end-to-end.",
+        "Hardened backend system security and access controls.",
+        "Built the payment gateway for membership registration."
+      ],
+      "tags": ["Full-stack", "Security"]
+    },
+    {
+      "name": "HBISDT · XINDA (Handan) Technology",
+      "title": "Research Intern · Intelligent Manufacturing R&D Team",
+      "location": "Handan, China",
+      "start": "Jan 2024",
+      "end": "Jan 2024",
+      "description": [
+        "Built a TensorFlow CNN classifier to assess internal low-magnification quality grades of rolled steel plates against compliance standards.",
+        "Prototyped a steel-coil eligibility interface with selectable ID3 / C4.5 / CART decision-tree algorithms, surfacing tree diagrams and accuracy metrics."
+      ],
+      "tags": ["TensorFlow", "CNN", "Decision Trees", "Python"]
+    }
+  ]
+}

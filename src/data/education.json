@@ -1,0 +1,25 @@
+{
+  "education": [
+    {
+      "name": "University of Edinburgh",
+      "href": "https://www.ed.ac.uk",
+      "title": "M.Sc. Computer Science",
+      "location": "Edinburgh, UK",
+      "start": "Sep 2025",
+      "description": [
+
+      ]
+    },
+    {
+      "name": "University of Auckland",
+      "href": "https://www.auckland.ac.nz",
+      "title": "B.Sc. Computer Science, double major in Statistics",
+      "location": "Auckland, NZ",
+      "start": "Jul 2022",
+      "end": "Sep 2025",
+      "description": [
+        "Multiple Certificates of Excellent Grades from the Departments of Statistics and Mathematics."
+      ]
+    }
+  ]
+}

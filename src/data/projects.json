@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "name": "lol2text",
+      "description": "Neural data-to-text generation for League of Legends that turns gameplay events into esports-style commentary.",
+      "tags": ["NLP", "Natural language generation", "Transformers", "QLoRA", "T5", "Qwen2.5", "PyTorch"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/char-WU/lol2text",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Faultless Document Reviewer",
+      "description": "An intelligent document analysis system that reviews and annotates engineering Word reports with rule-based checks.",
+      "tags": ["RAG", "Gemini 2.0", "LangChain", "ChromaDB", "Python"],
+      "links": [
+        {
+          "name": "Demo",
+          "href": "https://youtu.be/gp2nv7s0Fjg",
+          "icon": "video"
+        }
+      ]
+    },
+    {
+      "name": "AFS-style Distributed Filesystem",
+      "description": "AAn AFS-inspired user-space distributed file system with caching, replication, recovery, and Raft-based fault tolerance.",
+      "tags": ["Raft", "Distributed Systems", "RPC", "TCP", "Fault Tolerance"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/Shanmin123/Fault-Tolerant-AFS-like-DFS",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}

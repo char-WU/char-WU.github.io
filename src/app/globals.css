@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;          /* #FAFAFA */
+    --foreground: 0 0% 10%;           /* derived near-black (palette has no dark color) */
+    --muted: 240 2% 81%;              /* #CDCDCF */
+    --muted-foreground: 0 0% 27%;     /* derived dark gray (palette's #939599 fails AA at ~2.9:1) */
+    --accent: 240 2% 81%;
+    --card: 0 0% 100%;                /* pure white — lifts on hover against the FAFAFA bg */
+    --border: 240 2% 81%;             /* #CDCDCF */
+    --highlight: 12 84% 54%;          /* #EC4D25 vivid orange-red — active states + hover */
+    --tag: 180 100% 25%;              /* #008080 deep cyan — tag pill colour */
+    --accent-soft: 220 3% 59%;        /* #939599 mid-gray — timeline circle ring + project link buttons */
+  }
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  ::selection {
+    background: hsl(var(--highlight) / 0.2);
+    color: hsl(var(--foreground));
+  }
+}
+
+@layer components {
+  .title {
+    @apply font-serif tracking-tight;
+  }
+
+  .link {
+    @apply transition-colors hover:text-[hsl(var(--highlight))];
+  }
+
+  .section-label {
+    @apply text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground;
+  }
+}
+
+

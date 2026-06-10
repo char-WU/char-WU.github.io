@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "GitHub",
+      "href": "https://github.com/char-WU",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/yufei-charlotte-wu",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:charlottewu016@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}
