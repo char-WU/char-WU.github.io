@@ -8,15 +8,15 @@ import TopMenu from "@/components/TopMenu";
 export default function Home() {
   return (
     <div className="mx-auto min-h-screen max-w-7xl px-6 sm:px-10 md:px-14 lg:px-20">
+      <header className="sticky top-0 z-30 flex h-16 items-center justify-between bg-background">
+        <Breadcrumb />
+        <TopMenu />
+      </header>
+
       <div className="lg:grid lg:grid-cols-[minmax(0,_5fr)_minmax(0,_7fr)] lg:gap-14">
         <Sidebar />
 
-        <main id="content" className="py-16 lg:py-24">
-          <div className="sticky top-0 z-30 -mx-6 mb-12 flex items-center justify-between bg-background/80 px-6 py-3 backdrop-blur-md sm:-mx-10 sm:px-10 md:-mx-14 md:px-14 lg:mx-0 lg:px-0">
-            <Breadcrumb />
-            <TopMenu />
-          </div>
-
+        <main id="content" className="pb-16 pt-8 lg:pb-24 lg:pt-8">
           <div className="flex flex-col gap-24">
             <Section id="about" label="01 — About">
               <About />
@@ -30,7 +30,6 @@ export default function Home() {
               <Projects />
             </Section>
           </div>
-
         </main>
       </div>
     </div>

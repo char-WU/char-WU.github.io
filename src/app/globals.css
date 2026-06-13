@@ -45,6 +45,19 @@
   .section-label {
     @apply text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground;
   }
+
+  .breadcrumb-cursor {
+    animation: breadcrumb-cursor-fade 1.4s ease-in-out infinite;
+  }
 }
 
+@keyframes breadcrumb-cursor-fade {
+  0%,
+  100% {
+    opacity: 1;
+  }
 
+  50% {
+    opacity: 0.03;
+  }
+}

@@ -3,6 +3,8 @@
     {
       "name": "lol2text",
       "description": "Neural data-to-text generation for League of Legends that turns gameplay events into esports-style commentary.",
+      "image": "/projects/lol.png",
+      "imageAlt": "Abstract game events flowing through a neural model into generated commentary",
       "tags": ["NLP", "Natural language generation", "Transformers", "QLoRA", "T5", "Qwen2.5", "PyTorch"],
       "links": [
         {
@@ -15,6 +17,8 @@
     {
       "name": "Faultless Document Reviewer",
       "description": "An intelligent document analysis system that reviews and annotates engineering Word reports with rule-based checks.",
+      "image": "/projects/faultless.png",
+      "imageAlt": "Engineering report annotated with critical issues by the Faultless document reviewer",
       "tags": ["RAG", "Gemini 2.0", "LangChain", "ChromaDB", "Python"],
       "links": [
         {
@@ -27,6 +31,8 @@
     {
       "name": "AFS-style Distributed Filesystem",
       "description": "An AFS-inspired user-space distributed file system with caching, replication, recovery, and Raft-based fault tolerance.",
+      "image": "/projects/afs.png",
+      "imageAlt": "Client cache connected through a Raft cluster to fault-tolerant replicated file servers",
       "tags": ["Raft", "Distributed Systems", "RPC", "TCP", "Fault Tolerance"],
       "links": [
         {
