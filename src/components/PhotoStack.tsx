@@ -11,7 +11,7 @@ const PHOTOS: Photo[] = [
   { src: "/photos/me-2.jpg", alt: "Charlotte", caption: null },
   { src: "/photos/me-3.JPG", alt: "Charlotte", caption: null },
   {
-    src: "/photos/bun-1.JPG",
+    src: "/photos/bun-1.jpg",
     alt: "Charlotte's pet bunny holding a small bunny plush",
     caption: "my pet bunny — with its bunny doll",
   },
