@@ -22,7 +22,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Charlotte Wu — MSc CS @ Edinburgh",
+  title: "Charlotte Wu",
   description:
     "Portfolio of Yufei (Charlotte) Wu — Computer Science student exploring machine learning, distributed systems, and software engineering.",
 };
