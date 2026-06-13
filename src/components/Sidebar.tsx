@@ -2,11 +2,12 @@
 
 import Link from "next/link";
 import { IconFileDownload } from "@tabler/icons-react";
+import PhotoStack from "./PhotoStack";
 import Socials from "./Socials";
 
 export default function Sidebar() {
   return (
-    <aside className="pb-12 pt-8 lg:sticky lg:top-16 lg:h-[calc(100vh-4rem)] lg:max-h-[calc(100vh-4rem)] lg:w-full lg:pb-8 lg:pt-8">
+    <aside className="flex flex-col pb-12 pt-8 lg:sticky lg:top-16 lg:h-[calc(100vh-4rem)] lg:max-h-[calc(100vh-4rem)] lg:w-full lg:pb-8 lg:pt-8">
       <div className="flex flex-col">
         <h1 className="title text-5xl font-medium leading-tight tracking-tight sm:text-6xl">
           Charlotte Wu
@@ -31,6 +32,8 @@ export default function Sidebar() {
         </Link>
         <Socials />
       </div>
+
+      <PhotoStack />
     </aside>
   );
 }
