@@ -7,14 +7,14 @@ import { useState } from "react";
 type Photo = { src: string; alt: string; caption: string | null };
 
 const PHOTOS: Photo[] = [
-  { src: "/photos/me-1.jpg", alt: "Charlotte", caption: null },
-  { src: "/photos/me-2.jpg", alt: "Charlotte", caption: null },
-  { src: "/photos/me-3.JPG", alt: "Charlotte", caption: null },
   {
     src: "/photos/bun-1.jpg",
     alt: "Charlotte's pet bunny holding a small bunny plush",
     caption: "my pet bunny — with its bunny doll",
   },
+  { src: "/photos/me-3.JPG", alt: "Charlotte", caption: null },
+  { src: "/photos/me-2.jpg", alt: "Charlotte", caption: null },
+  { src: "/photos/me-1.jpg", alt: "Charlotte", caption: null },
 ];
 
 const SWIPE_THRESHOLD = 80;
